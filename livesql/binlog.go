@@ -112,7 +112,7 @@ func NewBinlogWithSource(ldb *LiveDB, sourceDB *sql.DB, host string, port uint16
 		localHostName = string(runes[0:maxHostNameLength])
 	}
 
-	syncer := replication.NewBinlogSyncer(&replication.BinlogSyncerConfig{
+	syncer := replication.NewBinlogSyncer(replication.BinlogSyncerConfig{
 		ServerID: binary.LittleEndian.Uint32(slaveId),
 		Host:     host,
 		Localhost: localHostName,
