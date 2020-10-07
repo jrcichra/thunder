@@ -13,9 +13,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/samsarahq/thunder/internal/fields"
-	"github.com/samsarahq/thunder/logger"
-	"github.com/samsarahq/thunder/sqlgen"
+	"github.com/jrcichra/thunder/internal/fields"
+	"github.com/jrcichra/thunder/logger"
+	"github.com/jrcichra/thunder/sqlgen"
 	"github.com/siddontang/go-mysql/mysql"
 	"github.com/siddontang/go-mysql/replication"
 )

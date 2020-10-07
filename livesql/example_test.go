@@ -6,10 +6,10 @@ import (
 	"time"
 
 	_ "github.com/go-sql-driver/mysql"
-	"github.com/samsarahq/thunder/internal/testfixtures"
-	"github.com/samsarahq/thunder/livesql"
-	"github.com/samsarahq/thunder/reactive"
-	"github.com/samsarahq/thunder/sqlgen"
+	"github.com/jrcichra/thunder/internal/testfixtures"
+	"github.com/jrcichra/thunder/livesql"
+	"github.com/jrcichra/thunder/reactive"
+	"github.com/jrcichra/thunder/sqlgen"
 )
 
 type Cat struct {

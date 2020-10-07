@@ -7,8 +7,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/samsarahq/thunder/internal/fields"
-	"github.com/samsarahq/thunder/internal/proto"
+	"github.com/jrcichra/thunder/internal/fields"
+	"github.com/jrcichra/thunder/internal/proto"
 	"github.com/stretchr/testify/assert"
 )
 

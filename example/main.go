@@ -7,12 +7,12 @@ import (
 	"sort"
 
 	_ "github.com/go-sql-driver/mysql"
-	"github.com/samsarahq/thunder/graphql"
-	"github.com/samsarahq/thunder/graphql/graphiql"
-	"github.com/samsarahq/thunder/graphql/introspection"
-	"github.com/samsarahq/thunder/graphql/schemabuilder"
-	"github.com/samsarahq/thunder/livesql"
-	"github.com/samsarahq/thunder/sqlgen"
+	"github.com/jrcichra/thunder/graphql"
+	"github.com/jrcichra/thunder/graphql/graphiql"
+	"github.com/jrcichra/thunder/graphql/introspection"
+	"github.com/jrcichra/thunder/graphql/schemabuilder"
+	"github.com/jrcichra/thunder/livesql"
+	"github.com/jrcichra/thunder/sqlgen"
 )
 
 type Server struct {

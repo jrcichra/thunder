@@ -5,8 +5,8 @@ import (
 	"testing"
 
 	"github.com/samsarahq/go/snapshotter"
-	"github.com/samsarahq/thunder/graphql/introspection"
-	"github.com/samsarahq/thunder/graphql/schemabuilder"
+	"github.com/jrcichra/thunder/graphql/introspection"
+	"github.com/jrcichra/thunder/graphql/schemabuilder"
 	"github.com/stretchr/testify/require"
 )
 

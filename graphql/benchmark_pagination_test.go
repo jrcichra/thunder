@@ -4,9 +4,9 @@ import (
 	"context"
 	"testing"
 
-	"github.com/samsarahq/thunder/batch"
-	"github.com/samsarahq/thunder/graphql"
-	"github.com/samsarahq/thunder/graphql/schemabuilder"
+	"github.com/jrcichra/thunder/batch"
+	"github.com/jrcichra/thunder/graphql"
+	"github.com/jrcichra/thunder/graphql/schemabuilder"
 	"github.com/stretchr/testify/require"
 )
 

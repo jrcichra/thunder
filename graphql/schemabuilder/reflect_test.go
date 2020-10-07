@@ -8,10 +8,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/samsarahq/thunder/batch"
-	"github.com/samsarahq/thunder/graphql"
-	"github.com/samsarahq/thunder/graphql/schemabuilder/testpackage"
-	"github.com/samsarahq/thunder/internal"
+	"github.com/jrcichra/thunder/batch"
+	"github.com/jrcichra/thunder/graphql"
+	"github.com/jrcichra/thunder/graphql/schemabuilder/testpackage"
+	"github.com/jrcichra/thunder/internal"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

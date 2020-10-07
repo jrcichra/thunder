@@ -11,8 +11,8 @@ import (
 
 	"github.com/davecgh/go-spew/spew"
 	"github.com/kylelemons/godebug/pretty"
-	"github.com/samsarahq/thunder/internal/fields"
-	"github.com/samsarahq/thunder/internal/testfixtures"
+	"github.com/jrcichra/thunder/internal/fields"
+	"github.com/jrcichra/thunder/internal/testfixtures"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

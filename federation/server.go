@@ -7,10 +7,10 @@ import (
 	"time"
 
 	"github.com/samsarahq/go/oops"
-	"github.com/samsarahq/thunder/graphql"
-	"github.com/samsarahq/thunder/graphql/introspection"
-	"github.com/samsarahq/thunder/reactive"
-	"github.com/samsarahq/thunder/thunderpb"
+	"github.com/jrcichra/thunder/graphql"
+	"github.com/jrcichra/thunder/graphql/introspection"
+	"github.com/jrcichra/thunder/reactive"
+	"github.com/jrcichra/thunder/thunderpb"
 )
 
 // DirectExecutorClient is used to execute directly on any of the graphql servers

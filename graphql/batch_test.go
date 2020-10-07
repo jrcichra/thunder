@@ -6,10 +6,10 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/samsarahq/thunder/batch"
-	"github.com/samsarahq/thunder/graphql"
-	"github.com/samsarahq/thunder/graphql/schemabuilder"
-	"github.com/samsarahq/thunder/internal"
+	"github.com/jrcichra/thunder/batch"
+	"github.com/jrcichra/thunder/graphql"
+	"github.com/jrcichra/thunder/graphql/schemabuilder"
+	"github.com/jrcichra/thunder/internal"
 	"github.com/stretchr/testify/require"
 )
 
