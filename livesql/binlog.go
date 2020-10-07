@@ -120,7 +120,7 @@ func NewBinlogWithSource(ldb *LiveDB, sourceDB *sql.DB, host string, port uint16
                 User:     username,
                 Password: password,
         }
-	syncer := replication.NewBinlogSyncer(syncerConfig)
+	syncer := replication.NewBinlogSyncer(*syncerConfig)
 
 	streamer, err := syncer.StartSync(position)
 	if err != nil {
